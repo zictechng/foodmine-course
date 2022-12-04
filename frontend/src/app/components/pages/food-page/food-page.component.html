@@ -1,12 +1,14 @@
 
 <!--Not found page here-->
+<!--<app-not-found [visible]="!food.id"  this is use for static result-->
 <app-not-found [visible]="!food.id"
 notFoundMessage="Food item not found"
 resetLinkText="Back Home">
 </app-not-found>
 
 <!--main page here-->
-<div *ngIf="food.id" class="container">
+<!--<div *ngIf="food.id" class="container">  this is use for static result-->
+<div *ngIf="food" class="container">
 <img [src]="food.imageUrl" [alt]="food.name" />
 
 

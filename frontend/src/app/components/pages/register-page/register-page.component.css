@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 3rem;
+  }
+
+  .details{
+    width: 28rem;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .error-list{
+    color: red;
+  }
+
+
+  button{
+    height: 3.5rem;
+    border: none;
+    outline: none;
+    background-color: #e72929;
+    color: white;
+    font-weight: 100;
+    border-radius: 0.8rem;
+    width: 100%;
+    margin: 1rem auto;
+    opacity: 0.8;
+  }
+
+  button:hover{
+  cursor: pointer;
+  opacity: 1;
+  }
